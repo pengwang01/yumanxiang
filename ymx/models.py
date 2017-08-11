@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 
-class company(models.Model):
+class Company(models.Model):
     company_name = models.CharField(max_length=500)
     company_description = models.CharField(max_length=5000, blank=True)
     company_primary_phone = models.CharField(max_length=100, blank=True)
